@@ -270,7 +270,6 @@ class Cricket {
                         break;
                     } 
                     else if (ballOutcome == "NB" || ballOutcome == "WB") {
-                        cout << "Player: " << playerName << " got " << ballOutcome << "\n";
                         team.incrementExtraScore(1);
                     } 
                     else {
